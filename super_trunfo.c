@@ -112,7 +112,7 @@ int main() {
   printf("Pontos Turísticos: Carta %d venceu (%s)\n", cardTuristic1Win,
          cardTuristic1Win == 1 ? "1" : "0");
 
-  int cardPopulationDen1Win = popDensity1 > popDensity2 ? 1 : 2;
+  int cardPopulationDen1Win = popDensity1 < popDensity2 ? 1 : 2;
   printf("Densidade Populacional: Carta %d venceu (%s)\n",
          cardPopulationDen1Win, cardPopulationDen1Win == 1 ? "1" : "0");
 
